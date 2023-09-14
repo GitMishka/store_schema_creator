@@ -6,9 +6,9 @@ def create_merch_schema():
         dbname="mydbname",
         user="myuser",
         password="mypassword",
-        host="mydatabase.postgres.database.azure.com", # typically looks like this
+        host="mydatabase.postgres.database.azure.com", 
         port="5432",
-        sslmode="require" # Azure usually requires SSL connection
+        sslmode="require" 
     )
     
     cursor = conn.cursor()
